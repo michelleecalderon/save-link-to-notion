@@ -1,6 +1,6 @@
 # save-link-to-notion
 
-A [Claude Skill](https://docs.claude.com/en/docs/claude-code/skills) that turns a Notion database into a searchable second brain for links.
+A Skill that turns a Notion database into a searchable second brain for links.
 
 Paste a URL, with or without a note about why you saved it, and Claude will:
 
@@ -22,8 +22,8 @@ Most "save this link" setups dump everything into one page of bullet points, whi
 
 ## Requirements
 
-- A Notion workspace connected to Claude via MCP.
-- A URL-fetching tool available to Claude (e.g. web search/fetch), so descriptions are written from the real page content.
+- A Notion workspace connected via MCP.
+- A URL-fetching tool available (e.g. web search/fetch), so descriptions are written from the real page content.
 
 ## Installation
 
